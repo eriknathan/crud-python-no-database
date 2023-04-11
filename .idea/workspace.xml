@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="265a78e8-6362-467d-81ee-d23a1986ec80" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/file/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/file/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sistema/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +45,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/login" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -104,5 +109,8 @@
       <updated>1681166677033</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
 </project>

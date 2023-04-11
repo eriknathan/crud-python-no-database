@@ -21,17 +21,20 @@ def criarArquivo(nome):
         print(f'Arquivo {nome} criado com sucesso!')
 
 
-def listar_pessoas(nome):
+def listar_pessoas(nome, info):
     try:
         a = open(nome, 'rt')
     except:
         print('Erro ao ler o arquivo!')
     else:
-        cabeçalho('PESSOAS CADASTRADAS')
-        for linha in a:
-            dado = linha.split(';')
-            dado[1] = dado[1].replace('\n', '')
-            print(f'{dado[0]:<30}{dado[1]:>3} anos')
+        if info.st_size == 0:
+            print('Não há pessoas cadastradas')
+        else:
+            cabeçalho('PESSOAS CADASTRADAS')
+            for linha in a:
+                dado = linha.split(';')
+                dado[1] = dado[1].replace('\n', '')
+                print(f'{dado[0]:<10}{dado[1]:>3} anos')
     finally:
         a.close()
 
