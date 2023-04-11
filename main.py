@@ -8,24 +8,24 @@ if not arquivoExiste(arq):
     criarArquivo(arq)
 
 while True:
-    resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova Pessoa', 'Sair do Sistema'])
-    if resposta == 1:
-        # Opção de listar o conteúdo de um arquivo!
-        lerArquivo(arq)
-    elif resposta == 2:
-        # Opção de cadastrar uma nova pessoa.
-        cabeçalho('NOVO CADASTRO')
+    opcao = menu(['Ver pessoas cadastradas', 'Cadastrar Pessoas', 'Editar Pessoas', 'Excluir Pessoas', 'Sair do Menu'])
+
+    if opcao == 1:
+        listar_pessoas(arq)
+    elif opcao == 2:
         nome = str(input('Nome: '))
         idade = leiaInt('Idade: ')
-        cadastrar(arq, nome, idade)
-    elif resposta == 3:
-        cabeçalho('EDITAR PESSOA')
-        new_nome = str(input('Nome da pessoa para editar: '))
-        new_idade = leiaInt('Nova idade da pessoa: : ')
-        editar(arq, new_nome, new_idade)
-    elif resposta == 5:
+        cadastrar_pessoa(arq, nome, idade)
+    elif opcao == 3:
+        nome_antigo = str(input('Nome da pessoa para editar: '))
+        nova_idade = leiaInt('Nova idade da pessoa: : ')
+        editar_pessoa(arq, nome_antigo, nova_idade)
+    elif opcao == 4:
+        nome = input("Digite o nome da pessoa que deseja excluir: ")
+        excluir_pessoa(arq, nome)
+    elif opcao == 5:
         cabeçalho('Saindo do sistema... Até logo!')
         break
     else:
         print('\033[31mERRO! Digite uma opção válida!\033[m')
-    sleep(2)
+    sleep(1.5)
