@@ -61,11 +61,8 @@ def editar_pessoa(arq, nome_antigo, nova_idade):
                 pessoas.append(f"{nome};{nova_idade}\n")
             else:
                 pessoas.append(f"{nome};{idade}\n")
-        a.close()
         a = open(arq, 'w')
         a.writelines(pessoas)
-        a.close()
-        print("Pessoa editada com sucesso!")
     except:
         print('Houve um [ERRO] na edição do arquivo')
     else:
