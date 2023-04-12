@@ -1,2 +1,0 @@
-Erik;23;abc
-Nathan;23

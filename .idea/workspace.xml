@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="265a78e8-6362-467d-81ee-d23a1986ec80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/login/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/sistema/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/createfile/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/file/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/file/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/login/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/login/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sistema/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sistema/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="crud-python-no-database" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/sistema" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/sistema/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="crud-python-no-database" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,6 +117,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>

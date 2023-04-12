@@ -1,9 +1,9 @@
 import time
+import os
 
 from lib.interface import *
 from lib.sistema import sistema
 from dotenv import load_dotenv
-import os
 
 # Carrega as variáveis de ambiente do arquivo .env
 load_dotenv()

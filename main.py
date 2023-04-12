@@ -1,3 +1,3 @@
-from lib.login import *
+from lib.login import fazerLogin
 
 fazerLogin()

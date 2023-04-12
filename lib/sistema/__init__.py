@@ -1,8 +1,10 @@
 from lib.file import *
+from lib.createfile import *
 from time import sleep
+
 import os
 
-arq = 'database.txt'
+arq = 'database/database.txt'
 
 if not arquivoExiste(arq):
     criarArquivo(arq)
