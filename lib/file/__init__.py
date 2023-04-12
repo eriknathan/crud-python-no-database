@@ -1,10 +1,10 @@
-from lib.interface import *
+from lib.interface import cabeçalho
 
 
 def listar_pessoas(nome, info):
     try:
         a = open(nome, 'rt')
-    except:
+    except FileNotFoundError:
         print('Erro ao ler o arquivo!')
     else:
         if info.st_size == 0:
@@ -22,12 +22,12 @@ def listar_pessoas(nome, info):
 def cadastrar_pessoa(arq, nome='desconhecido', idade=0):
     try:
         a = open(arq, 'at')
-    except:
+    except FileNotFoundError:
         print('Houve um [ERRO] na abertura do arquivo')
     else:
         try:
             a.write(f'{nome};{idade}\n')
-        except:
+        except FileNotFoundError:
             print('Houve um ERRO na hora de escrever os dados!')
         else:
             print(f'Pessoa: {nome} | Cadastrada com sucesso!')
@@ -46,7 +46,7 @@ def editar_pessoa(arq, nome_antigo, nova_idade):
                 pessoas.append(f"{nome};{idade}\n")
         a = open(arq, 'w')
         a.writelines(pessoas)
-    except:
+    except FileNotFoundError:
         print('Houve um [ERRO] na edição do arquivo')
     else:
         print("Pessoa EDITADA com sucesso!")
@@ -64,7 +64,7 @@ def excluir_pessoa(arq, nome):
         a = open(arq, 'w')
         a.writelines(pessoas)
         a.close()
-    except:
+    except FileNotFoundError:
         print('Houve um [ERRO] ao excluir a pessoa')
     else:
         print("Pessoa EXCLUÍDA com sucesso!")

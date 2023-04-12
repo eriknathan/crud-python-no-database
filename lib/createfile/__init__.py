@@ -12,7 +12,7 @@ def criarArquivo(nome):
     try:
         a = open(nome, 'wt+')
         a.close()
-    except:
+    except FileNotFoundError:
         print('Houve um erro na criação do arquivo!')
     else:
         print(f'Arquivo {nome} criado com sucesso!')

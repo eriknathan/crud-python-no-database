@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="265a78e8-6362-467d-81ee-d23a1986ec80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/createfile/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/createfile/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/createfile/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/file/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/file/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/interface/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/interface/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/login/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/login/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/sistema/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/sistema/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

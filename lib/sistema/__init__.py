@@ -1,5 +1,7 @@
-from lib.file import *
-from lib.createfile import *
+from lib.file import cadastrar_pessoa, editar_pessoa,\
+    excluir_pessoa, listar_pessoas
+from lib.interface import leiaInt, cabeçalho, menu
+from lib.createfile import criarArquivo, arquivoExiste
 from time import sleep
 
 import os
@@ -9,9 +11,15 @@ arq = 'database/database.txt'
 if not arquivoExiste(arq):
     criarArquivo(arq)
 
+
 def sistema():
     while True:
-        opcao = menu(['Ver pessoas cadastradas', 'Cadastrar Pessoas', 'Editar Pessoas', 'Excluir Pessoas', 'Sair do Menu'])
+        opcao = menu([
+            'Ver pessoas cadastradas',
+            'Cadastrar Pessoas',
+            'Editar Pessoas',
+            'Excluir Pessoas',
+            'Sair do Menu'])
 
         # LISTAR PESSOAS
         if opcao == 1:

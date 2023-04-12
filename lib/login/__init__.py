@@ -1,7 +1,7 @@
 import time
 import os
 
-from lib.interface import *
+from lib.interface import cabeçalho
 from lib.sistema import sistema
 from dotenv import load_dotenv
 
@@ -10,6 +10,7 @@ load_dotenv()
 
 usuario_correto = os.getenv('USUARIO_CORRETO')
 senha_correta = os.getenv('SENHA_CORRETA')
+
 
 def fazerLogin():
     cabeçalho('ENTRAR NO SISETEMA')
