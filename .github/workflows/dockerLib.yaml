@@ -9,8 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # carregando IMAGE_NAME a parti do env
-      BRANCH_NAME: ${{ basename(github.ref) }}
-      IMAGE_NAME: ${{ secrets.DOCKER_HUB_USERNAME }}/${{ github.repository }}:${{ BRANCH_NAME }}-${{ github.run_number }}
+      IMAGE_NAME: ${{ secrets.DOCKER_HUB_USERNAME }}/${{ github.repository }}:${{ basename(github.ref) }}-${{ github.run_number }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
