@@ -5,7 +5,7 @@ on:
 env:
   DOCKER_HUB_USERNAME: eriknathan
   DOCKER_HUB_PASSWORD: ${{ secrets.DOCKER_HUB_TOKEN }}
-  IMAGE_NAME: $DOCKER_HUB_USERNAME/${{ github.repository }}:main-${{ github.run_number }}
+  IMAGE_NAME: eriknathan/${{ github.repository }}:main-${{ github.run_number }}
 
 jobs:
   build:
