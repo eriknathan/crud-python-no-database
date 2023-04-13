@@ -7,7 +7,7 @@ on:
 
 env:
   # carregando IMAGE_NAME a parti do env
-  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.repository }}:${{ github.ref_slug }}-${{ github.run_number }}
+  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.repository }}:${{ split('/', github.ref)[2] }}-${{ github.run_number }}
 
 jobs:
   build-push-pull:
