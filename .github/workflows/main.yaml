@@ -25,6 +25,9 @@ jobs:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_TOKEN }}
 
+      - name: Tag Image
+        run: docker tag $IMAGE_NAME ${{ secrets.DOCKER_HUB_USERNAME }}/$IMAGE_NAME
+
       - name: Push Docker image
         run: docker push $IMAGE_NAME
 
