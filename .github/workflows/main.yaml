@@ -3,7 +3,8 @@ on:
     branches: [main] # Aqui você pode definir em qual branch será feito o build e push
 
 env:
-  IMAGE_NAME: ${{ github.repository }}:main-${{ github.run_number }}
+  #IMAGE_NAME: ${{ github.repository }}:main-${{ github.run_number }}
+  IMAGE_NAME: ${{ github.repository }}:latest
   TAG: ${{ github.repository }}:latest eriknathan/${{ github.repository }}:latest
 
 jobs:
