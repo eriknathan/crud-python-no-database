@@ -4,7 +4,7 @@ on:
 
 env:
   IMAGE_NAME: ${{ github.repository }}:main-${{ github.run_number }}
-  TAG: ${{ github.repository }}:main-${{ github.run_number }} eriknathan/$IMAGE_NAME
+  TAG: ${{ github.repository }}:latest eriknathan/${{ github.repository }}:latest
 
 jobs:
   build:
