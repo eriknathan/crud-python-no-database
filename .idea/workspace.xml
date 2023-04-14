@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="265a78e8-6362-467d-81ee-d23a1986ec80" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/dockerLib.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dockerLib.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/eriknathan/Estudos/Scripts/python"
+    "last_opened_file_path": "/home/eriknathan/Estudos/Projetos/crud-python-no-database"
   }
 }]]></component>
   <component name="RecentsManager">
